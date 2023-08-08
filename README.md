@@ -21,7 +21,7 @@ Maycon:
 Renato:
 
     Conjunto 1: 4
-    Conjunto 2: 14, 30-39
+    Conjunto 2: 14, 30
     Conjunto 3: 39-47
     Conjunto 4: 61
 
