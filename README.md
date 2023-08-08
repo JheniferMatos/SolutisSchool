@@ -1,6 +1,9 @@
 Conjunto 1: programas sequenciais com entrada, cálculo e saída (vai de 1 a 7)
+
 Conjunto 2: programas com estruturas condicionais (vai de 8 a 30)
+
 Conjunto 3: programas com estruturas de repetição (vai de 31 a 58)
+
 Conjunto 4: programas com estruturas de repetição aninhadas (vai de 59 a 65)
 
 Distribuição dos Exercícios
