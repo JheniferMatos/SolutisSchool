@@ -1,4 +1,3 @@
-package Lista03;
 
 public class Ex33_ExibirNumerosPares {
     public static void main(String[] args) {

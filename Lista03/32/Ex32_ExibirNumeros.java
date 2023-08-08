@@ -1,4 +1,3 @@
-package Lista03;
 
 public class Ex32_ExibirNumeros {
     public static void main(String[] args) {

@@ -1,4 +1,3 @@
-package Lista03;
 
 public class Ex31_Loop {
     public static void main(String[] args) {
