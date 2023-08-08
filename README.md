@@ -8,7 +8,9 @@ Conjunto 4: programas com estruturas de repetição aninhadas (vai de 59 a 65)
 
 Distribuição dos Exercícios
 
-Maycon:
+
+
+Maycon: 
 
     Conjunto 1: 1-3
     Conjunto 2: 8-13
@@ -46,3 +48,9 @@ Sara:
     Conjunto 2: 25-39
     Conjunto 3: 55-58 
     Conjunto 4: 65
+
+https://github.com/MayconW
+https://github.com/renatof4rias
+https://github.com/JheniferMatos
+https://github.com/sarahfso
+
