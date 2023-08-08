@@ -21,7 +21,7 @@ Maycon:
 Renato:
 
     Conjunto 1: 4
-    Conjunto 2: 14
+    Conjunto 2: 14, 30-39
     Conjunto 3: 39-47
     Conjunto 4: 61
 
@@ -45,7 +45,7 @@ Lucas:
 Sara:
 
     Conjunto 1: 7
-    Conjunto 2: 25-39
+    Conjunto 2: 25-29
     Conjunto 3: 55-58 
     Conjunto 4: 65
 
