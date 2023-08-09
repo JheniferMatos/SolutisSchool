@@ -1,4 +1,4 @@
-package Lista04;
+
 /*Crie as classes concertas Cachorro, Gato, Elefante, Leão que herdarão da classe
 AnimalAB e sobrescreva os métodos abstratos comer, moverse, dormir; As
 ações desses métodos consistem em alterar o estado interno do objeto através
@@ -27,13 +27,38 @@ public class Cachorro extends AnimalAB  {
 
     @Override
     public void moverse(double distancia) {
-        System.out.println("O cachorro " + "andou " + quantidadeCaminho + " metros.");
+        System.out.println("O cachorro andou " + quantidadeCaminho + " metros.");
     }
 
     @Override
     public void dormir(int horas) {
-        System.out.println("O cachorro " + "dormiu por " +  quantidadeHoras + " horas.");
+        System.out.println("O cachorro dormiu por " +  quantidadeHoras + " horas.");
     }
+
+    //Getters e Setters 
+
+    public int getQuantidadeComida() {
+        return this.quantidadeComida;
+    }
+
+    public void setQuantidadeComida(int quantidadeComida) {
+        this.quantidadeComida = quantidadeComida;
+    }
+
+    public int getQuantidadeCaminho() {
+        return this.quantidadeCaminho;
+    }
+
+    public void setQuantidadeCaminho(int quantidadeCaminho) {
+        this.quantidadeCaminho = quantidadeCaminho;
+    }
+
+    public int getQuantidadeHoras() {
+        return this.quantidadeHoras;
+    }
+
+    public void setQuantidadeHoras(int quantidadeHoras) {
+        this.quantidadeHoras = quantidadeHoras;
+    }
+     
 }
-    
-    

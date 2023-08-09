@@ -1,5 +1,3 @@
-package Lista04;
-
 //Criar uma interface AnimalIF com os métodos comer, moverse, dormir;
 
 public interface AnimalIF {

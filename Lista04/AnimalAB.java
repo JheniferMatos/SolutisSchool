@@ -1,4 +1,3 @@
-package Lista04;
 
 /*Crie uma classe abstrata AnimalAB que implementa a interface AnimalIF e define os métodos abstratos assinados na interface.
 nome

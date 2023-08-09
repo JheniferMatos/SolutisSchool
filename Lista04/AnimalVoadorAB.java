@@ -1,37 +1,28 @@
-package Lista04;
 
-public class AnimalVoadorAB extends AnimalAB {
+public abstract class AnimalVoadorAB extends AnimalAB {
     
-    private int quantidadeAssas;
-    private double envergaduraAssa;
+    private int quantidadeAsas;
+    private double envergaduraAsas;
 
 
     public AnimalVoadorAB(String nome, int idade, String habitat, int quantidadeAsas, double envergaduraAsas) {
         super(nome, "Animal Voador", idade, habitat);
-        this.quantidadeAssas = quantidadeAssas;
-        this.envergaduraAssa = envergaduraAssa;
+        this.quantidadeAsas = quantidadeAsas;
+        this.envergaduraAsas = envergaduraAsas;
     }
     
-    public abstract void nadar();
-    
+    public abstract void voar();
 
-    //Getters 
+    // Getters
 
-    /**
-     * @return int return the quantidadeAssas
-     */
     public int getQuantidadeAssas() {
-        return quantidadeAssas;
+        return quantidadeAsas;
     }
 
-
-
-    /**
-     * @return double return the envergaduraAssa
-     */
     public double getEnvergaduraAssa() {
-        return envergaduraAssa;
+        return envergaduraAsas;
     }
+
 
 
 
