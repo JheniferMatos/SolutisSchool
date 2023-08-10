@@ -1,4 +1,4 @@
-package Lista6._05_Exercicio;
+package _05_Exercicio;
 
 public abstract class Funcionario {
 

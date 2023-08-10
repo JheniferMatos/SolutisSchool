@@ -1,5 +1,4 @@
-package Lista6._07_Exercicio;
-
+package _07_Exercicio;
 public class FuncionarioEnsinoMedio extends FuncionarioEscolaridade {
 
     public FuncionarioEnsinoMedio() {

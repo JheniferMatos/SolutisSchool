@@ -1,4 +1,5 @@
-package Lista6._03_Exercicio;
+package _03_Exercicio;
+
 public class Cachorro extends Animal {
 
     public Cachorro(String name, Integer idade) {

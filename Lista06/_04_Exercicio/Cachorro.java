@@ -1,4 +1,4 @@
-package Lista6._04_Exercicio;
+package _04_Exercicio;
 
 
 public class Cachorro extends Animal implements Correr {

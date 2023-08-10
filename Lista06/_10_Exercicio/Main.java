@@ -1,11 +1,7 @@
-package Lista6._10_Exercicio;
-
-import java.util.Scanner;
+package _10_Exercicio;
 
 public class Main {
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-
         Funcionario[] funcionarios = criarFuncionarios();
 
         double custoTotal = 0;

@@ -1,4 +1,4 @@
-package Lista6._06_Exercicio;
+package _06_Exercicio;
 public abstract class Funcionario {
 
     private String nome;

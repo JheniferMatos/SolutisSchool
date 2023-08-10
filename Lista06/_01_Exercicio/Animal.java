@@ -1,4 +1,4 @@
-package Lista6._01_Exercicio;
+package _01_Exercicio;
 
 public abstract class Animal {
 

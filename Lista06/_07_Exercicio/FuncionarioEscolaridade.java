@@ -1,4 +1,4 @@
-package Lista6._07_Exercicio;
+package _07_Exercicio;
 public abstract class FuncionarioEscolaridade extends Funcionario {
 
     private String escolaEnsinoBasico;

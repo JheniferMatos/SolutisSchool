@@ -1,6 +1,4 @@
-package Lista6._01_Exercicio;
-
-import Lista6._02_Exercicio.Animal;
+package _01_Exercicio;
 
 public class Cachorro extends Animal {
 

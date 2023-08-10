@@ -1,4 +1,4 @@
-package Lista6._05_Exercicio;
+package _05_Exercicio;
 
 import java.util.Scanner;
 public class Main {
@@ -50,5 +50,6 @@ public class Main {
         System.out.println("\nInformações do funcionário: ");
         System.out.println(funcionario);
 
+        sc.close();
     }
 }

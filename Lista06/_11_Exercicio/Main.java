@@ -1,9 +1,9 @@
-package Lista6._11_Exercicio;
+package _11_Exercicio;
 
-import Lista6._06_Exercicio.Funcionario;
-import Lista6._06_Exercicio.FuncionarioEnsinoBasico;
-import Lista6._06_Exercicio.FuncionarioEnsinoMedio;
-import Lista6._06_Exercicio.FuncionarioUniversidade;
+import _06_Exercicio.Funcionario;
+import _06_Exercicio.FuncionarioEnsinoBasico;
+import _06_Exercicio.FuncionarioEnsinoMedio;
+import _06_Exercicio.FuncionarioUniversidade;
 
 public class Main {
     public static void main(String[] args) {

@@ -1,11 +1,7 @@
-package Lista6._07_Exercicio;
-
-import java.util.Scanner;
+package _07_Exercicio;
 
 public class Main {
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-
         Funcionario[] funcionarios = criarFuncionarios();
 
         double custoTotal = 0;
@@ -50,5 +46,7 @@ public class Main {
             funcionarios[i] = new FuncionarioUniversidade("Funcionario " + (i + 1), "C" + (i + 1), "Básica", "Média", "Universidade");
         }
         return funcionarios;
+
+       
     }
 }

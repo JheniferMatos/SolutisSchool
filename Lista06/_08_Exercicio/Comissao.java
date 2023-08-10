@@ -1,4 +1,4 @@
-package Lista6._08_Exercicio;
+package _08_Exercicio;
 public abstract class Comissao {
 
     double valor;

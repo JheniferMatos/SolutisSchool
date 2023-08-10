@@ -1,4 +1,4 @@
-package Lista6._07_Exercicio;
+package _07_Exercicio;
 public class FuncionarioSemEscolaridade extends Funcionario {
 
     public FuncionarioSemEscolaridade(String nome, String codigoFuncional) {
