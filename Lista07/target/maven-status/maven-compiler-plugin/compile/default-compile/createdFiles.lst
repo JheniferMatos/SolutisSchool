@@ -1,5 +1,6 @@
-br\com\cursopcv\modelo\Produto.class
 br\com\cursopcv\modelo\ProdutoDAO.class
+br\com\cursopcv\modelo\testes\Encapsulamento.class
+br\com\cursopcv\modelo\Produto.class
 br\com\cursopcv\modelo\testes\AlteracaoDeProduto.class
 br\com\cursopcv\modelo\testes\RemocaoDeProduto.class
 br\com\cursopcv\modelo\testes\InclusaoDeProduto.class

@@ -1,6 +1,7 @@
 package br.com.cursopcv.modelo;
 
 import jakarta.persistence.EntityManager;
+import jakarta.persistence.EntityTransaction;
 
 public class ProdutoDAO {
 
@@ -17,31 +18,33 @@ public class ProdutoDAO {
             em.persist(p);
             em.getTransaction().commit();
         } catch (Exception e) {
-            em.getTransaction().rollback();
+            if (em.getTransaction().isActive()) {
+                em.getTransaction().rollback();
+            }
             e.printStackTrace();
         }
     }
 
     // Atualizar Produto
-    public void atualizarProduto(Produto p) {
+    public void atualizarProduto(Produto p, EntityTransaction transaction) {
         try {
-            em.getTransaction().begin();
             em.merge(p);
-            em.getTransaction().commit();
         } catch (Exception e) {
-            em.getTransaction().rollback();
+            if (transaction.isActive()) {
+                transaction.rollback();
+            }
             e.printStackTrace();
         }
     }
 
     // Remover Produto
-    public void removerProduto(Produto p) {
+    public void removerProduto(Produto p, EntityTransaction transaction) {
         try {
-            em.getTransaction().begin();
             em.remove(p);
-            em.getTransaction().commit();
         } catch (Exception e) {
-            em.getTransaction().rollback();
+            if (transaction.isActive()) {
+                transaction.rollback();
+            }
             e.printStackTrace();
         }
     }

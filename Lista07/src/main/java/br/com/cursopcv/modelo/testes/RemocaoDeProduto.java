@@ -4,15 +4,13 @@ import br.com.cursopcv.modelo.Produto;
 import br.com.cursopcv.modelo.ProdutoDAO;
 
 import jakarta.persistence.EntityManager;
-import jakarta.persistence.EntityManagerFactory;
-import jakarta.persistence.Persistence;
+
 
 public class RemocaoDeProduto {
     public static void main(String[] args) {
 
-        EntityManagerFactory emf = Persistence.createEntityManagerFactory("contestoque");
-        EntityManager em = emf.createEntityManager();
-
+        EntityManager em = Encapsulamento.getEntityManager();
+        
         ProdutoDAO produtoDAO = new ProdutoDAO(em);
 
         // Iniciar transação
@@ -23,13 +21,14 @@ public class RemocaoDeProduto {
 
         // Remover o produto
         if (produto != null) {
-            produtoDAO.removerProduto(produto);
+            produtoDAO.removerProduto(produto, em.getTransaction()); // Passando a transação como parâmetro
         }
+
 
         // Comitar transação
         em.getTransaction().commit();
 
         em.close();
-        emf.close();
+        Encapsulamento.closeEntityManagerFactory();
     }
 }

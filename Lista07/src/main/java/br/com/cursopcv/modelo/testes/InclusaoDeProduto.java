@@ -3,16 +3,12 @@ package br.com.cursopcv.modelo.testes;
 import br.com.cursopcv.modelo.Produto;
 import br.com.cursopcv.modelo.ProdutoDAO;
 import jakarta.persistence.EntityManager;
-import jakarta.persistence.EntityManagerFactory;
-import jakarta.persistence.Persistence;
 
 
 public class InclusaoDeProduto {
     public static void main(String[] args) {
         
-        EntityManagerFactory emf = Persistence.createEntityManagerFactory("contestoque");
-        EntityManager em = emf.createEntityManager();
-        
+        EntityManager em = Encapsulamento.getEntityManager();
         ProdutoDAO produtoDAO = new ProdutoDAO(em);
 
         Produto panela = new Produto();
@@ -35,6 +31,6 @@ public class InclusaoDeProduto {
         produtoDAO.cadastrarProduto(caixaSom);
 
         em.close();
-        emf.close();
+        Encapsulamento.closeEntityManagerFactory();
     }
 }

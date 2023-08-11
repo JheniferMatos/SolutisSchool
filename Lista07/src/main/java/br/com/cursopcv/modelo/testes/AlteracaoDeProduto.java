@@ -4,15 +4,12 @@ import br.com.cursopcv.modelo.Produto;
 import br.com.cursopcv.modelo.ProdutoDAO;
 
 import jakarta.persistence.EntityManager;
-import jakarta.persistence.EntityManagerFactory;
-import jakarta.persistence.Persistence;
 
 public class AlteracaoDeProduto {
     public static void main(String[] args) {
 
-        EntityManagerFactory emf = Persistence.createEntityManagerFactory("contestoque");
-        EntityManager em = emf.createEntityManager();
-
+        EntityManager em = Encapsulamento.getEntityManager();
+        
         ProdutoDAO produtoDAO = new ProdutoDAO(em);
 
         // Iniciar transação
@@ -24,13 +21,13 @@ public class AlteracaoDeProduto {
         // Alterar o preço do produto
         if (produto != null) {
             produto.setPreco(345.00);
-            produtoDAO.atualizarProduto(produto);
+            produtoDAO.atualizarProduto(produto, em.getTransaction());
         }
 
         // Comitar transação
         em.getTransaction().commit();
 
         em.close();
-        emf.close();
+        Encapsulamento.closeEntityManagerFactory();
     }
 }
