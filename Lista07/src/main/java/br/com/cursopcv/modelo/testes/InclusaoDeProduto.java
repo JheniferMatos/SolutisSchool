@@ -1,5 +1,6 @@
 package br.com.cursopcv.modelo.testes;
 
+import br.com.cursopcv.modelo.Encapsulamento;
 import br.com.cursopcv.modelo.Produto;
 import br.com.cursopcv.modelo.ProdutoDAO;
 import jakarta.persistence.EntityManager;

@@ -1,4 +1,4 @@
-package br.com.cursopcv.modelo.testes;
+package br.com.cursopcv.modelo;
 
 import jakarta.persistence.EntityManager;
 import jakarta.persistence.EntityManagerFactory;
